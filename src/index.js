@@ -7,6 +7,7 @@ import App from "./components/App";
 
 const store = createStore(rootReducer);
 
+console.log(rootReducer, store.getState());
 ReactDOM.render(
   <Provider store={store}>
     <App />

@@ -5,6 +5,8 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Wallet
     balance={20}
+    deposit={[MockFunction]}
+    withdraw={[MockFunction]}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -28,7 +30,23 @@ ShallowWrapper {
             20
           </span>
         </h3>,
-        " ",
+        <input
+          className="input-wallet"
+          onChange={[Function]}
+          type="text"
+        />,
+        <button
+          className="btn-deposit"
+          onClick={[Function]}
+        >
+          Deposit
+        </button>,
+        <button
+          className="btn-withdraw"
+          onClick={[Function]}
+        >
+          Withdraw
+        </button>,
       ],
     },
     "ref": null,
@@ -65,7 +83,45 @@ ShallowWrapper {
         ],
         "type": "h3",
       },
-      " ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "input-wallet",
+          "onChange": [Function],
+          "type": "text",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Deposit",
+          "className": "btn-deposit",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Deposit",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Withdraw",
+          "className": "btn-withdraw",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Withdraw",
+        "type": "button",
+      },
     ],
     "type": "div",
   },
@@ -84,7 +140,23 @@ ShallowWrapper {
               20
             </span>
           </h3>,
-          " ",
+          <input
+            className="input-wallet"
+            onChange={[Function]}
+            type="text"
+          />,
+          <button
+            className="btn-deposit"
+            onClick={[Function]}
+          >
+            Deposit
+          </button>,
+          <button
+            className="btn-withdraw"
+            onClick={[Function]}
+          >
+            Withdraw
+          </button>,
         ],
       },
       "ref": null,
@@ -121,7 +193,45 @@ ShallowWrapper {
           ],
           "type": "h3",
         },
-        " ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "input-wallet",
+            "onChange": [Function],
+            "type": "text",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Deposit",
+            "className": "btn-deposit",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Deposit",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Withdraw",
+            "className": "btn-withdraw",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Withdraw",
+          "type": "button",
+        },
       ],
       "type": "div",
     },
