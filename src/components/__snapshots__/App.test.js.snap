@@ -22,6 +22,14 @@ ShallowWrapper {
           Lootcheck
         </h1>,
         <Connect(Wallet) />,
+        <hr />,
+        <Connect(Loot) />,
+        <div>
+          <a
+            href="http://www.coindesk.com"
+            target="_blank"
+          />
+        </div>,
       ],
       "className": "App",
     },
@@ -47,6 +55,49 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "hr",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            href="http://www.coindesk.com"
+            target="_blank"
+          />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "href": "http://www.coindesk.com",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "a",
+        },
+        "type": "div",
+      },
     ],
     "type": "div",
   },
@@ -61,6 +112,14 @@ ShallowWrapper {
             Lootcheck
           </h1>,
           <Connect(Wallet) />,
+          <hr />,
+          <Connect(Loot) />,
+          <div>
+            <a
+              href="http://www.coindesk.com"
+              target="_blank"
+            />
+          </div>,
         ],
         "className": "App",
       },
@@ -85,6 +144,49 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              href="http://www.coindesk.com"
+              target="_blank"
+            />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "http://www.coindesk.com",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "a",
+          },
+          "type": "div",
         },
       ],
       "type": "div",
